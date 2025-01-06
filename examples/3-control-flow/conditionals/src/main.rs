@@ -19,4 +19,14 @@ fn main() {
         }
     }
 
+    let age = 9;
+
+    if age > 18 {
+        println!("Adult");
+    } else if age > 12 {
+        println!("Teenager");
+    } else {
+        println!("Child");
+    }
+
 }
